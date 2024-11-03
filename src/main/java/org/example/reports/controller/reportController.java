@@ -27,8 +27,8 @@ public class reportController {
     }
 
     @PostMapping("/04")
-    public String test1() throws IOException {
-        return  makeZipReportService.generateNameOfZip(1);
+    public Boolean test1() throws IOException {
+        return  makeZipReportService.makeZip(2);
     }
 
 
